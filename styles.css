@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 5vh;
+}
+
+.top-content {
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottom-content {
+    display: flex;
+    column-gap: 2vh;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.link-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.link-item a {
+    text-decoration: none;
+}
